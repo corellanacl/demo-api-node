@@ -1,0 +1,20 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "description": "Demo de la Guia para el Desarrollo de API REST usando NodeJS - Arquitectura TChile",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "everis - Cristian Orellana Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.15"
+  }
+}
