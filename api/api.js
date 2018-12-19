@@ -1,5 +1,5 @@
 let express     = require("express");		  
-let bodyParser  = require("body-parser");   
+let bodyParser  = require("body-parser");
 let app         = express();
 var cors        = require('cors')			           
 
@@ -8,7 +8,7 @@ let getCarsByMark  = require('../repository/getCarsByMark/getCarsByMark.controll
 
 let insertCar      = require('../repository/insertCar/insertCar.controller');
 
-app.use(bodyParser.json());                      
+app.use(bodyParser.json());                    
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors())
 
