@@ -1,5 +1,5 @@
 {
-  "name": "demo-nodejs",
+  "name": "demo-api-node",
   "version": "1.0.0",
   "description": "Demo de la Guia para el Desarrollo de API REST usando NodeJS - Arquitectura TChile",
   "main": "app.js",
